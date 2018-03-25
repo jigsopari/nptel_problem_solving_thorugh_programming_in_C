@@ -1,0 +1,14 @@
+The Selection Sort works by finding the smallest unsorted item in the list and swapping it with the item in the current position. The algorithm works as follows: 
+1. Set first position as current position. 
+2. Find the minimum value in the list 
+3. Swap it with the value in the current position 
+4. Set next position as current position 
+5. Repeat Steps 2-4 until you reach end of list 
+
+A Binary search is an efficient algorithm for finding an item from an ordered list of items. It works by repeatedly dividing in half the portion of the list that could contain the item, until it is narrowed down the possible locations to just one
+
+A Linear search is a searching algorithm which is used to find whether a given number is present in an array. It is also known as sequential search. It is straightforward and keep on comparing each element with the element to search until it is found or the list ends. 
+
+Insertion sort is a sorting algorithm in which the elements are transferred one at a time to the right position. Here the first element in the array is considered as sorted, even if it is an unsorted array. Then each element in the array is checked with the previous elements, resulting in a growing sorted output list. With each iteration, the sorting algorithm removes one element at a time and finds the appropriate location within the sorted array and inserts it there. The iteration continues until the whole list is sorted.
+
+Bubble sort is a sorting algorithm that works by repeatedly stepping through lists that need to be sorted, comparing each pair of adjacent items and swapping them if they are in the wrong order. This passing procedure is repeated until no swaps are required, indicating that the list is sorted. Bubble sort gets its name because smaller elements bubble toward the top of the list.
