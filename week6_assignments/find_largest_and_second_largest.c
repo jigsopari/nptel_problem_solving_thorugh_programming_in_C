@@ -1,27 +1,34 @@
-#include<stdio.h>
-void main()
+//Find the largest and second largest of an array.
+#include <stdio.h>
+int main() 
 {
-int a[5],j,l,s;
-printf("enter integers");
-for(j=0;j<5;j++)
-{
-scanf("%d",&a[j]);
-}
-l = a[0];
-for(j=0;j<5;j++)
-{
-if(a[j]>l)
-l=a[j];
-}
-a[0]=l;
+int j, array[5], largest, second;
+for(j=0;j<5;++j)
+scanf("%d",&array[j]); /*storing the elements of array from test case */
+int i;
 
-s=a[1];
-for(j=1;j<5;j++)
-{
-if(a[j]>s)
-s=a[j];
-}
-l=a[0];
+   if(array[0] > array[1]) 
+   {
+      largest = array[0];
+      second  = array[1];
+   }else 
+   {
+      largest = array[1];
+      second  = array[0];
+   }
 
-printf("largest is %d and second is %d\n",l,s);
+   for(i = 2; i < 5; ++i) 
+  {
+      if( largest < array[i] ) 
+      {
+         second = largest;
+         largest = array[i];
+      }else if( second < array[i] ) 
+      {
+         second =  array[i];
+      }
+   }
+ printf("Largest - %d, Second - %d", largest, second);   
+
 }
+
