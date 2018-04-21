@@ -1,3 +1,4 @@
+// to find a given number is perfect number or not. like 6 = 1+2+3
 #include<stdio.h>
 int main()
 {
