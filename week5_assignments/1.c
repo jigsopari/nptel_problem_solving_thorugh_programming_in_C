@@ -1,3 +1,4 @@
+//To print sum of series : 1+11+111+1111+ ...n terms
 #include<stdio.h>
 #include<math.h>
 int main()
