@@ -1,3 +1,4 @@
+//finding sum of digits of an integer.
 #include<stdio.h>
 int main()
 {
