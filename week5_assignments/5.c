@@ -1,3 +1,4 @@
+//C program to find LCM of two numbers using GCF
 #include<stdio.h>
 int hcf(int a, int b)
 {
