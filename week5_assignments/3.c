@@ -1,3 +1,4 @@
+//To find wether a given number other than 1 is prime or not.
 #include<stdio.h>
 int main()
 {
